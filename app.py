@@ -1,6 +1,7 @@
+# Синхронный Код (окно зависает тк ожидает завершения продолжительного по времени "действия")
 import tkinter as tk
-from time import sleep
 from tkinter import ttk
+from time import sleep
 
 root = tk.Tk()
 root.geometry('300x300+150+150')
